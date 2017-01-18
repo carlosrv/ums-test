@@ -256,7 +256,7 @@ class AccountAdmin(admin.ModelAdmin):
 
             instance.save()
 
-    # Actions
+    # Actions q hace
     actions = ["disable_account", "enable_account"]
 
     def disable_account(self, request, queryset):
