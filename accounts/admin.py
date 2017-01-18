@@ -31,7 +31,7 @@ import os
 #import win_crypt as crypt
 import sys
 from socket import *
-
+# new comment
 
 # Poner los passwords en forma de passwords_input(*******), y crea los campos del form
 class InlineForm(forms.ModelForm):
